@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    ViewBinding host for the Jetpack Compose UI: the activity inflates this layout through
+    ActivityMainBinding and attaches the composable tree to the ComposeView below.
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_background">
+
+    <androidx.compose.ui.platform.ComposeView
+        android:id="@+id/printComposeView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>

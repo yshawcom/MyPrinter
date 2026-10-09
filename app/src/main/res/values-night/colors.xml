@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Night palette; mirrors the dark colours in ui/Theme.kt. -->
+<resources>
+    <color name="primary">#8AB4FF</color>
+    <color name="primary_dark">#4C7DFF</color>
+    <color name="page_background">#101319</color>
+    <color name="surface">#1A1E26</color>
+    <color name="text_primary">#E8EAF0</color>
+    <color name="text_secondary">#9BA4B4</color>
+    <color name="divider">#2A2F3A</color>
+    <color name="warning_background">#3A2E17</color>
+    <color name="warning_text">#F0B45C</color>
+</resources>

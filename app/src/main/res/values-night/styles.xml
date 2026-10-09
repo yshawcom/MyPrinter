@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Night variant of the app theme: dark system bar icons are not readable on a dark page. -->
+<resources>
+    <style name="Theme.MyPrinter" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@color/page_background</item>
+        <item name="android:navigationBarColor">@color/surface</item>
+        <item name="android:colorAccent">@color/primary</item>
+    </style>
+</resources>
